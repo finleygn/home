@@ -58,9 +58,9 @@
   <div class="content">
     <Header />
     <nav>
-      <Link to="https://www.linkedin.com/in/finleyg/">linkedin</Link>
-      <Link to="https://github.com/finleygn">github</Link>
-      <Link to="https://twitter.com/finley_gn">twitter</Link>
+      <Link target="_blank" to="https://www.linkedin.com/in/finleyg/">linkedin</Link>
+      <Link target="_blank" to="https://github.com/finleygn">github</Link>
+      <Link target="_blank" to="https://twitter.com/finley_gn">twitter</Link>
     </nav>
   </div>
   <CrossArray crossSize={6} crossGap={80} />

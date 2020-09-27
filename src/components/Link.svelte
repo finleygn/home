@@ -73,11 +73,12 @@
   }
 </style>
 
-<a href={to} on:mousemove={handleMousemove}>
+<a href={to} on:mousemove={handleMousemove} {...$$restProps}>
   <div class="inner">
     <slot />
   </div>
   <div
     class="shine"
-    style="transform: translate(calc(-50% + {$coords.x}px), calc(-50% + {$coords.y}px));" />
+    style="transform: translate(calc(-50% + {$coords.x}px), calc(-50% + {$coords.y}px));"
+  />
 </a>
