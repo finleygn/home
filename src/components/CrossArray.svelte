@@ -1,12 +1,12 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
+  export let crossSize;
+  export let crossGap;
+  export let moveSize = 50;
+
   let canvas: HTMLCanvasElement;
   let ctx: CanvasRenderingContext2D;
-
-  const crossSize = 6;
-  const crossGap = 80;
-  const moveSize = 50;
 
   function draw() {
     const rows = Math.ceil((canvas.width + moveSize) / (crossSize + crossGap));

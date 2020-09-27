@@ -63,5 +63,5 @@
       <Link to="https://twitter.com/finley_gn">twitter</Link>
     </nav>
   </div>
-  <CrossArray />
+  <CrossArray crossSize={6} crossGap={80} />
 </main>
