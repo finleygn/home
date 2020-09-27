@@ -1,5 +1,5 @@
 <script>
-  import Dango from "../icons/dango.svelte";
+  import Dango from "../icons/Dango.svelte";
 </script>
 
 <style>
